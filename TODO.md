@@ -1,6 +1,6 @@
 # Flujos conversacionales
 
-* [ ] Intent bienvenida 
+* [x] Intent bienvenida 
   * Respuesta: 'Hola, Soy el Bot de la Universitat de València ¿En qué te puedo ayudar?'
 
 ## 1. Grado
