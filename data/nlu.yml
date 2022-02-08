@@ -14,3 +14,15 @@ nlu:
     - que pasa
     - ye
     - ey
+
+- intent: informacion_grado
+  examples: |
+    - ¿Qué grados hay disponibles?
+    - ¿Cuál es la oferta de grados?
+    - Información sobre carreras
+    - ¿Qué grados ofrece la Universidad de Valencia?
+    - ¿De cuántos créditos consta el Grado en [Enfermería](grado)?
+    - ¿Qué asignaturas se imparten en el Grado de [Fisioterápia](grado)?
+    - ¿Cuál es el plan de estudios del Grado en [Administración y Dirección de empresas](grado)?
+    - Quiero informarme sobre el Grado en [Matemáticas](grado)
+    - Grado en [Medicina](grado)

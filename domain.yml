@@ -2,10 +2,25 @@ version: "3.0"
 
 intents:
   - bienvenida
+  - informacion_grado
+
+entities:
+  - grado
+
+slots:
+  grado:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: grado
 
 responses:
   utter_bienvenida:
-  - text: "Hola, Soy el Bot de la Universitat de València ¿En qué te puedo ayudar?"
+    - text: "Hola, Soy el Bot de la Universitat de València ¿En qué te puedo ayudar?"
+
+actions:
+  - utter_bienvenida
+  - action_informacion_grado
 
 session_config:
   session_expiration_time: 60

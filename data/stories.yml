@@ -4,5 +4,11 @@ stories:
 
 - story: Bienvenida
   steps:
-  - intent: bienvenida
-  - action: utter_bienvenida
+    - intent: bienvenida
+    - action: utter_bienvenida
+
+- story: Pedir información sobre oferta de grados
+  steps:
+    - intent: informacion_grado
+    - action: action_informacion_grado
+

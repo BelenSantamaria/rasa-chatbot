@@ -3,3 +3,4 @@
 models/
 actions/__pycache__
 notebooks/.ipynb_checkpoints
+story_graph.dot

@@ -5,9 +5,9 @@
 
 ## 1. Grado
 
-* [ ] Añadir intent `grado` para dar unformación sobre oferta formativa y webs específicas de cada grado
-    * [ ] Parsear [página de grados](https://www.uv.es/uvweb/universidad/es/estudios-grado/oferta-grados/oferta-grados-1285846094474.html) para obtener correspondencia entre grados y páginas web.
-    * [ ] Preguntar si quiere información general o sobre algún grado en concreto
+* [x] Añadir intent `grado` para dar unformación sobre oferta formativa y webs específicas de cada grado
+    * [x] Parsear [página de grados](https://www.uv.es/uvweb/universidad/es/estudios-grado/oferta-grados/oferta-grados-1285846094474.html) para obtener correspondencia entre grados y páginas web.
+    * [x] Preguntar si quiere información general o sobre algún grado en concreto
   * Respuesta: 'Nuestros grados se imparten de manera presencial. Puedes consultar la oferta formativa en ir.uv.es/Na09Pog'
   * Respuesta: 'Puedes consultar los grados que ofrece la Universitat de València en el siguiente enlace: links.uv.es/xw5us9N'
   * Respuesta: 'Toda la información que planteas la podrás encontrar en la siguiente página web de la UV: uv.es/uvweb/grado-matematicas/es/grado-matematicas-1285929208365.html'
