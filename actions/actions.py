@@ -22,9 +22,8 @@ class InformacionGradoAction(Action):
                 f"Toda la información la podrás encontrar en la siguiente página web de la UV: {web_grado}"
             )
         else:
-            web_grado = INFO_GRADO['informacion_general']
+            web_grado = INFO_GRADO["informacion_general"]
             dispatcher.utter_message(
                 f"Puedes consultar los grados que ofrece la Universitat de València en el siguiente enlace: {web_grado}"
             )
         return [SlotSet("grado", None)]
-

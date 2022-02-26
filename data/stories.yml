@@ -12,3 +12,13 @@ stories:
     - intent: informacion_grado
     - action: action_informacion_grado
 
+- story: Admisiones
+  steps:
+    - intent: admision
+    - action: utter_admision
+
+- story: Inscripciones
+  steps:
+    - intent: faq_inscripciones
+    - action: utter_faq_inscripciones
+

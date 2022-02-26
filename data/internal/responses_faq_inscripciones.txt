@@ -1,41 +1,3 @@
-version: "3.0"
-
-intents:
-  - bienvenida
-  - informacion_grado
-  - admision
-  - faq_inscripciones
-
-entities:
-  - grado
-
-slots:
-  grado:
-    type: text
-    mappings:
-    - type: from_entity
-      entity: grado
-
-responses:
-  utter_bienvenida:
-    - text: "Hola, Soy el Bot de la Universitat de València ¿En qué te puedo ayudar?"
-
-  utter_admision:
-    - text: "La admisión a las titulaciones oficiales de la Universidad de Valencia es un proceso
-    a través del cual se distribuyen las plazas ofertadas cada curso entre las personas que solicitan la plaza
-    y cumplen alguno de los requisitos de acceso. Este procedimiento incluye tanto las pruebas y
-    acreditaciones para el acceso como la solicitud y asignación de las plazas. Según sea la situación académica
-    de partida de cada candidato, en primer lugar hay que:\n
-    1.- Superar las pruebas de acceso correspondientes (PAU Bachillerato, PAU Mayores de 25 años,
-    PAU Mayores de 45 años o Selectivo del bachillerato extranjero no comunitario), o bien\n
-    2.- Obtener la acreditación de acceso (Mayores de 40 años, bachillerato de sistemas educativos de la UE), o bien\n
-    3.- Tener la titulación necesaria para el acceso (Ciclos Formativos o titulación universitaria).\n
-    Una vez que se tiene el requisito académico para poder acceder a la universidad es necesario realizar la preinscripción.
-    Este procedimientos sirve para ordenar por nota de acceso a los estudiantes que piden plaza en un grado.
-    Las universidades públicas valencianas y sus centros adscritos hacen la preinscripción conjuntamente, por ello,
-    cada estudiante solo puede presentar una única preinscripción al distrito universitario valenciano.
-    Más información: links.uv.es/ceR60tM"
-
   utter_faq_inscripciones/0:
   - text: "Es el procedimiento de admisión que sirve para ordenar, según la nota de admisión, a estudiantes que piden plaza en un grado. Es imprescindible realizar la preinscripción para poder obtener plaza en una universidad pública."
   utter_faq_inscripciones/1:
@@ -107,13 +69,3 @@ responses:
   utter_faq_inscripciones/34:
   - text: "Si, siempre que se obtenga la homologación o equivalencia del título universitario otorgada por el Ministerio de Universidades español. Desde este ministerio también debe tramitarse el certificado con la equivalencia de calificaciones medias de estudios universitarios realizados en el extranjero. Ambos procedimientos se pueden realizar online desde la web del Ministerio de Universidades español."
 
-
-actions:
-  - utter_bienvenida
-  - action_informacion_grado
-  - utter_admision
-  - utter_faq_inscripciones
-
-session_config:
-  session_expiration_time: 60
-  carry_over_slots_to_new_session: true

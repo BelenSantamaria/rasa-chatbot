@@ -12,5 +12,15 @@ rules:
     - intent: informacion_grado
     - action: action_informacion_grado
 
+- rule: Dar informacion sobre admisiones
+  steps:
+    - intent: admision
+    - action: utter_admision
+
+- rule: Responder a faq_inscripciones
+  steps:
+    - intent: faq_inscripciones
+    - action: utter_faq_inscripciones
+
 
 

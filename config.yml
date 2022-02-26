@@ -23,6 +23,7 @@ pipeline:
    - name: ResponseSelector
      epochs: 100
      constrain_similarities: true
+     retrieval_intent: faq_inscripciones
    - name: FallbackClassifier
      threshold: 0.2
      ambiguity_threshold: 0.01
