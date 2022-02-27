@@ -281,3 +281,118 @@ nlu:
     - ¿Se puede reservar con un título universitario extranjero un grado oficial en cada universidad española a través de la cuota de licenciados?
     - ¿Permite un diploma universitario extranjero acceder a un diploma oficial de cualquier universidad española en virtud de la cotización reservada a los graduados universitarios?
     - ¿Con un título universitario extranjero se puede acceder a un grado oficial de cualquier universidad española para la cuota reservada a los graduados?
+
+- intent: faq_matricula/0
+  examples: |
+    - Si no consigo plaza en mi primera opción para la Universidad, ¿tengo que matricularme igual?
+    - Si no consigo un lugar en mi primera elección para la universidad, ¿tengo que inscribirme de todos modos?
+    - Si no tengo lugar en mi primera elección para la universidad, ¿tengo que registrarme ahora mismo?
+    - Si no tengo lugar en mi primera opción para la universidad, ¿tengo que inscribirme de la misma manera?
+    - Si no encuentro un lugar en mi primera elección para la universidad, ¿tengo que registrarme de todos modos?
+- intent: faq_matricula/1
+  examples: |
+    - ¿Qué pasa si me matriculo en la plaza obtenida, y posteriormente por lista de espera, me adjudican la titulación que yo quiero?
+    - ¿Qué pasa si me inscribo en la posición obtenida, y luego por lista de espera, me otorgan el grado que quiero?
+    - ¿Qué pasa si me inscribo en el lugar que he recibido y luego me dan el título que quiero en la lista de espera?
+    - ¿Y si me inscribiera en la plaza, y luego en la lista de espera, me dieran el diploma que quería?
+    - ¿Qué pasa si me inscribo en la plaza obtenida, y luego por la lista de espera, me asignan el título que quiero?
+- intent: faq_matricula/2
+  examples: |
+    - ¿Qué vale una matrícula en la Universidad?
+    - ¿Cuánto vale una matrícula universitaria?
+    - ¿Cuánto vale una matrícula en la universidad?
+    - ¿Qué es una matrícula en la universidad?
+    - ¿Qué vale una matrícula en la universidad?
+- intent: faq_matricula/3
+  examples: |
+    - ¿Cómo puedo pagar la matrícula en la Universitat?
+    - ¿Cómo puedo pagar la matrícula en la Universidad?
+    - ¿Cómo puedo pagar la matrícula en la universidad?
+    - ¿Cómo puedo pagar mis matrículas en la universidad?
+    - ¿Cómo puedo pagar la matrícula de la Universidad?
+- intent: faq_matricula/4
+  examples: |
+    - ¿He fraccionado el pago de la matrícula, si no pago algún plazo qué pasa?
+    - ¿He repartido la matrícula, si no pago algún tiempo lo que pasa?
+    - ¿He repartido el pago de la inscripción si no pago el plazo, qué pasa?
+    - ¿Reembolsé la matrícula, si no pago un plazo lo que está pasando?
+    - He dividido el pago de la matrícula, si no pago algún plazo, ¿qué pasa?
+- intent: faq_matricula/5
+  examples: |
+    - ¿Hay alguna exención en el pago de la matrícula?
+    - ¿Hay alguna exención de las tasas de matrícula?
+    - ¿Hay exención de la tasa de registro?
+    - ¿Hay una exención de matrícula?
+    - ¿Hay alguna exención en el pago de la matrícula?
+- intent: faq_matricula/6
+  examples: |
+    - ¿Puedo anular la matrícula?
+    - ¿Puedo cancelar la matrícula?
+    - ¿Puedo cancelar la matrícula?
+    - ¿Puedo cancelar la matrícula?
+    - ¿Puedo cancelar la matrícula?
+- intent: faq_matricula/7
+  examples: |
+    - ¿Puedo modificar mi matrícula?
+    - ¿Puedo cambiar mi matrícula?
+    - ¿Puedo cambiar mi matrícula?
+    - ¿Puedo cambiar mi matrícula?
+    - ¿Puedo cambiar mi matrícula?
+- intent: faq_matricula/8
+  examples: |
+    - ¿De cuántas asignaturas me tengo que matricular?
+    - ¿En cuántos temas tengo que inscribirme?
+    - ¿Cuántas materias tengo que inscribirme?
+    - ¿Cuántas materias tengo que inscribirme?
+    - ¿De cuántas materias tengo que registrarme?
+- intent: faq_matricula/9
+  examples: |
+    - ¿Cuántas veces puedo matricularme de la misma asignatura?
+    - ¿Cuántas veces puedo inscribirme en el mismo tema?
+    - ¿Cuántas veces puedo inscribirme en la misma sección?
+    - ¿Cuántas veces puedo inscribirme en la misma materia?
+    - ¿Cuántas veces puedo apuntarme a la misma materia?
+- intent: faq_matricula/10
+  examples: |
+    - ¿Qué es la matrícula a tiempo completo y la matrícula a tiempo parcial?
+    - ¿Qué es la matrícula a tiempo completo y a tiempo parcial?
+    - ¿Qué son los sellos a tiempo completo y a tiempo parcial?
+    - ¿Qué es la inscripción a tiempo completo y la inscripción a tiempo parcial?
+    - ¿ Qué es la matrícula a tiempo completo y la matrícula a tiempo parcial?
+- intent: faq_matricula/11
+  examples: |
+    - ¿Puedo matricularme de asignaturas sueltas?
+    - ¿Puedo inscribirme en asignaturas individuales?
+    - ¿Puedo registrarme para estudiar gratis?
+    - ¿Puedo matricularme en clases libres?
+    - ¿Puedo apuntarme a materias libres?
+- intent: faq_matricula/12
+  examples: |
+    - ¿Cuándo será la matrícula este año?
+    - ¿Cuándo será la matrícula este año?
+    - ¿Cuándo será la matrícula este año?
+    - ¿Cuándo será la matrícula este año?
+    - ¿Cuándo es la matrícula este año?
+- intent: faq_matricula/13
+  examples: |
+    - ¿Creo que por las circunstancias económicas que la crisis sanitaria ha producido en mi familia, no podré afrontar el pago de recibos?
+    - ¿Creo que debido a las circunstancias económicas que la crisis de salud ha causado en mi familia, no podré enfrentar el pago de recibos?
+    - ¿Crees que no podré pagar los recibos debido a las circunstancias económicas que han causado la crisis de salud en mi familia?
+    - Creo que debido a las circunstancias económicas que la crisis sanitaria ha provocado en mi familia, ¿no podré pagar los recibos?
+    - Creo que, dadas las circunstancias económicas que la crisis sanitaria ha causado en mi familia, ¿no podré hacer frente al pago de los recibos?
+- intent: faq_matricula/14
+  examples: |
+    - ¿Cuando puedo solicitar cita de matrícula?
+    - ¿Cuándo puedo solicitar una matrícula?
+    - ¿Cuándo puedo solicitar una cita?
+    - ¿Cuándo puedo pedir una cita de matrícula?
+    - ¿Cuándo puedo solicitar una cita?
+
+- intent: beca
+  examples: |
+    - ¿Cómo puedo solicitar una beca?
+    - Información sobre ayuda econónima
+    - ¿Qué becas hay disponibles?
+    - ¿Existe ayuda económica?
+    - Quiero obtener información sobre las becas
+    - Háblame sobre las becas disponibles

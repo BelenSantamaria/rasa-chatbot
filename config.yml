@@ -24,6 +24,10 @@ pipeline:
      epochs: 100
      constrain_similarities: true
      retrieval_intent: faq_inscripciones
+   - name: ResponseSelector
+     epochs: 100
+     constrain_similarities: true
+     retrieval_intent: faq_matricula
    - name: FallbackClassifier
      threshold: 0.2
      ambiguity_threshold: 0.01

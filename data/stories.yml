@@ -22,3 +22,13 @@ stories:
     - intent: faq_inscripciones
     - action: utter_faq_inscripciones
 
+- story: Matrícula
+  steps:
+    - intent: faq_matricula
+    - action: utter_faq_matricula
+
+- story: Beca
+  steps:
+    - intent: beca
+    - action: utter_beca
+
