@@ -15,6 +15,15 @@ nlu:
     - ye
     - ey
 
+- intent: despedida
+  examples: |
+    - adiós
+    - hasta luego
+    - me voy
+    - fin de la conversación
+    - stop
+    - no quiero continuar
+
 - intent: informacion_grado
   examples: |
     - ¿Qué grados hay disponibles?

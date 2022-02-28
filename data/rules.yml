@@ -7,30 +7,40 @@ rules:
     - intent: bienvenida
     - action: utter_bienvenida
 
+- rule: Despedida
+  steps:
+    - intent: despedida
+    - action: utter_despedida
+
 - rule: Dar informacion sobre grado al detectar intent informacion_grado
   steps:
     - intent: informacion_grado
     - action: action_informacion_grado
+    - action: utter_continuar
 
 - rule: Dar informacion sobre admisiones
   steps:
     - intent: admision
     - action: utter_admision
+    - action: utter_continuar
 
 - rule: Responder a faq_inscripciones
   steps:
     - intent: faq_inscripciones
     - action: utter_faq_inscripciones
+    - action: utter_continuar
 
 - rule: Responder a faq_matricula
   steps:
     - intent: faq_matricula
     - action: utter_faq_matricula
+    - action: utter_continuar
 
 - rule: Responder a beca
   steps:
     - intent: beca
     - action: utter_beca
+    - action: utter_continuar
 
 
 

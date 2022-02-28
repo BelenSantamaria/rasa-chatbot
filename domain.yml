@@ -2,6 +2,7 @@ version: "3.0"
 
 intents:
   - bienvenida
+  - despedida
   - informacion_grado
   - admision
   - faq_inscripciones
@@ -21,6 +22,23 @@ slots:
 responses:
   utter_bienvenida:
     - text: "Hola, Soy el Bot de la Universitat de València ¿En qué te puedo ayudar?"
+
+  utter_despedida:
+    - text: "Hasta luego!"
+
+  utter_continuar:
+    - text: "Espero haber resuleto tu duda.  ¿Tienes alguna otra consulta?"
+      buttons:
+        - title: "Sí"
+          payload: /back
+        - title: "No"
+          payload: /despedida
+    - text: "Espero haberte ayudado.  ¿Tienes más dudas?"
+      buttons:
+        - title: "Sí"
+          payload: /back
+        - title: "No"
+          payload: /despedida
 
   utter_admision:
     - text: "La admisión a las titulaciones oficiales de la Universidad de Valencia es un proceso

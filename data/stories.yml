@@ -7,28 +7,38 @@ stories:
     - intent: bienvenida
     - action: utter_bienvenida
 
+- story: Despedida
+  steps:
+    - intent: despedida
+    - action: utter_despedida
+
 - story: Pedir información sobre oferta de grados
   steps:
     - intent: informacion_grado
     - action: action_informacion_grado
+    - action: utter_continuar
 
 - story: Admisiones
   steps:
     - intent: admision
     - action: utter_admision
+    - action: utter_continuar
 
 - story: Inscripciones
   steps:
     - intent: faq_inscripciones
     - action: utter_faq_inscripciones
+    - action: utter_continuar
 
 - story: Matrícula
   steps:
     - intent: faq_matricula
     - action: utter_faq_matricula
+    - action: utter_continuar
 
 - story: Beca
   steps:
     - intent: beca
     - action: utter_beca
+    - action: utter_continuar
 
