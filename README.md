@@ -8,6 +8,11 @@ Con el siguiente comando se puede crear un entorno con las dependencias del proy
 conda env create -n rasa-chatbot -f requierements.txt
 ```
 
+Para activar el entorno debemos escribir
+```
+conda activate rasa-chatbot
+```
+
 ## Entrenamiento del modelo
 Para poder utilizarlo es necesario entrenar antes un modelo. Para ello ejecutamos el sieguiente comando
 ```
