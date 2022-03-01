@@ -3,6 +3,8 @@ version: "3.0"
 intents:
   - bienvenida
   - despedida
+  - solucionado
+  - agente
   - informacion_grado
   - admision
   - faq_inscripciones
@@ -27,18 +29,24 @@ responses:
     - text: "Hasta luego!"
 
   utter_continuar:
-    - text: "Espero haber resuleto tu duda.  ¿Tienes alguna otra consulta?"
+    - text: "Espero haber resuleto tu duda."
       buttons:
-        - title: "Sí"
-          payload: /back
-        - title: "No"
-          payload: /despedida
-    - text: "Espero haberte ayudado.  ¿Tienes más dudas?"
+        - title: "Solucionado"
+          payload: "Solucionado"
+        - title: "Quiero hablar con un agente"
+          payload: "Quiero hablar con un agente"
+    - text: "Espero haberte ayudado."
       buttons:
-        - title: "Sí"
-          payload: /back
-        - title: "No"
-          payload: /despedida
+        - title: "Solucionado"
+          payload: "Solucionado"
+        - title: "Quiero hablar con un agente"
+          payload: "Quiero hablar con un agente"
+
+  utter_solucionado:
+    - text: "¡Me alegro de ayudarte!"
+
+  utter_agente:
+    - text: "Actualmente no hay ningún agente disponible"
 
   utter_admision:
     - text: "La admisión a las titulaciones oficiales de la Universidad de Valencia es un proceso

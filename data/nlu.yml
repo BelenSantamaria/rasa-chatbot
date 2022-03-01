@@ -23,6 +23,18 @@ nlu:
     - fin de la conversación
     - stop
     - no quiero continuar
+    - No
+
+- intent: solucionado
+  examples: |
+    - solucionado
+    - Solucionado
+    - Sí
+
+- intent: agente
+  examples: |
+    - Quiero hablar con un agente
+    - Hablar con un agente
 
 - intent: informacion_grado
   examples: |
@@ -309,7 +321,7 @@ nlu:
   examples: |
     - ¿Qué vale una matrícula en la Universidad?
     - ¿Cuánto vale una matrícula universitaria?
-    - ¿Cuánto vale una matrícula en la universidad?
+    - ¿Cuánto cuesta una matrícula en la universidad?
     - ¿Qué es una matrícula en la universidad?
     - ¿Qué vale una matrícula en la universidad?
 - intent: faq_matricula/3

@@ -12,6 +12,16 @@ stories:
     - intent: despedida
     - action: utter_despedida
 
+- story: Agente
+  steps:
+    - intent: agente
+    - action: utter_agente
+
+- story: Problema
+  steps:
+    - intent: solucionado
+    - action: utter_solucionado
+
 - story: Pedir información sobre oferta de grados
   steps:
     - intent: informacion_grado

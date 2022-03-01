@@ -12,6 +12,16 @@ rules:
     - intent: despedida
     - action: utter_despedida
 
+- rule: Contactar con un agente al detectar el intent agente
+  steps:
+    - intent: agente
+    - action: utter_agente
+
+- rule: Nos alegramos de ayudarte al solucionar un problema
+  steps:
+    - intent: solucionado
+    - action: utter_solucionado
+
 - rule: Dar informacion sobre grado al detectar intent informacion_grado
   steps:
     - intent: informacion_grado
