@@ -52,5 +52,10 @@ rules:
     - action: utter_beca
     - action: utter_continuar
 
+- rule: Comentario toxico
+  steps:
+    - intent: toxico
+    - action: utter_toxico
+
 
 

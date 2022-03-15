@@ -10,6 +10,7 @@ intents:
   - faq_inscripciones
   - faq_matricula
   - beca
+  - toxico
 
 entities:
   - grado
@@ -173,6 +174,9 @@ responses:
 - Ayudas al estudio de la Universidad de Valencia: links.uv.es/XEwbxz8 \n
 - Más información: links.uv.es/h2hF2tW"
 
+  utter_toxico:
+  - text: Ese comentario no es apropiado, este chat es para resolver consultas.
+
 actions:
   - utter_bienvenida
   - action_informacion_grado
@@ -180,6 +184,7 @@ actions:
   - utter_faq_inscripciones
   - utter_faq_matricula
   - utter_beca
+  - utter_toxico
 
 session_config:
   session_expiration_time: 60

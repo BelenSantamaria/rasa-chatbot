@@ -19,6 +19,7 @@ pipeline:
    - name: DIETClassifier
      epochs: 100
      constrain_similarities: true
+   - name: toxicity.toxicity_classifier.ToxicityFallbackClassifier
    - name: EntitySynonymMapper
    - name: ResponseSelector
      epochs: 100
